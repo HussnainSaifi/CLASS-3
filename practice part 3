@@ -1,0 +1,125 @@
+# Part 3: Arithmetic Operators 
+
+# Question no 21
+"""21. Write a program to calculate the area of a rectangle (Length × Width). """
+
+length = 4
+width = 6
+area = length * width
+print(f"Area of rectangle is {area}")
+
+
+
+# Question no 22
+
+"""22. Take two numbers and print the result of the first raised to the power of the second (a^b). """
+
+z = 6
+x = 8
+Power = z ** x
+print(f"Power of two number {z} ** {x} = {Power}")
+
+
+
+
+# Question no 23
+
+"""23. Demonstrate the difference between / (division) and // (floor division) with the numbers 10 
+and 3. """
+
+
+num1 = 10
+num2 = 3
+division = 10 / 3
+floor_division = 10 // 3
+print(f"Division of 10 and 3 is {division} and Floor division is {floor_division}")
+
+
+
+
+# Question no 24
+
+"""24. Use the modulus operator % to find the remainder when 25 is divided by 4."""
+
+h = 25
+l = 4
+module = 25 % 4
+print(f"{h} % {l} is {module}")
+
+
+
+
+# Question no 25
+
+"""25. Calculate the average of five numbers entered by the user. """
+
+a = int(input("Enter your 1st number: "))
+b = int(input("Enter your 2nd number: "))
+c = int(input("Enter your 3rd number: "))
+d = int(input("Enter your 4th number: "))
+e = int(input("Enter your 5th number: "))
+average = (a + b + c + d  + e) / 5
+print(f"user 5 number average is {average}")
+
+
+
+
+
+# Question no 26
+
+"""26. Create a program that converts minutes into hours and remaining minutes."""
+
+minutes = 200
+hours = minutes // 60
+remaning_minutes = minutes % 60
+print(f"minutes {minutes} coverted into hours {hours}  and remaining minutes are {remaning_minutes}")
+
+
+
+
+# Question no 27
+
+"""27. Calculate the area of a circle where Area = \pi r^2 (Use 3.14 for \pi). """
+
+pi = 3.14
+radius = 6
+area_of_circle = pi * radius ** 2
+print(f"Area of a circle is {area_of_circle} when pi is {pi} and radius is {radius}")
+
+
+
+
+# Question no 28
+
+"""28. Find the cube of a number entered by the user. """
+
+number = int(input("Please enter your number for cube: "))
+cube = number ** 3
+print(f"Your number is {number} and its cube is {cube}")
+
+
+
+
+
+# Question no 29
+
+"""29. Perform the calculation 10 + 5 * 2. Does Python follow PEMDAS? Prove it with code. """
+
+cal = 10 + 5 * 2
+print(cal)
+print("Python follow the PEDMAS rule...")
+
+
+
+
+
+# Question no 30
+
+"""30. Write a program to calculate simple interest: (P \times R \times T) / 100. """
+
+P = float(input("Please enter the investment amount: "))
+R = float(input("Please enter the interest % you want on amount: "))
+T = float(input("Please enter the time period, enter in years: "))
+Si = (P * R * T) / 100
+print(f"Principle you invest {P} Interest on it {R}% and Time period is {T} The simple interest you gain is {Si}")
+
