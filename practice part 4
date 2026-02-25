@@ -1,0 +1,97 @@
+# Part 4: Comparison & Logical Operators
+
+# Question no 31
+"""31. Compare two numbers entered by the user and print if the first is greater than the 
+second. """
+
+a = int(input("Please enter your first number: "))
+b = int(input("Please enter your second number: "))
+print(a>b)
+
+
+
+
+
+# Question no 32
+"""32. Check if a user-entered number is even (Number % 2 == 0) and print the Boolean result."""
+
+c = int(input("Pleae enter the number to check its even or not: "))
+evn = c % 2 == 0 
+print(evn)
+
+
+
+
+# Question no 33
+"""33. Write a program that checks if a number is between 10 and 50 (inclusive) using and."""
+
+d = int(input("Please enter your number to check its btwn 10 to 50: "))
+print(d >= 10 and d <= 50)
+
+
+
+
+# Question no 34
+"""34. Check if a string entered by the user is equal to "Python"."""
+
+e = str(input("Please enter your string: "))
+print(e == "Python" or e == "python")
+
+
+
+
+
+# Question no 35
+"""35. Use the or operator to check if a user is either "Admin" or "Superuser"."""
+
+f = input("Please enter your role: ")
+print(f == "Admin" or f == "Superuser" or f == "admin" or f == "superuser")
+
+
+
+
+# Question no 36
+"""36. Demonstrate the not operator by reversing a Boolean variable."""
+
+g = 1 > 2
+print("1 > 2 =",g)
+print(not g,":due to the not logic")
+
+
+
+
+# Question no 37
+"""37. Compare two floating-point numbers: 0.1 + 0.2 == 0.3. Explain the result. """
+
+k = 0.1 + 0.2 == 0.3
+print(k,"Reason is because python do not store floating precision value")
+
+
+
+
+# Question no 38
+"""38. Take a user's age and check if they are NOT under 18. """
+
+l = int(input("Please enter your age to see you are under 18 or not: "))
+print(l <= 17)
+
+
+
+
+
+# Question no 39
+"""39. Check if a number is positive and odd using logical operators. """
+
+z = int(input("Please enter your number to check its positive and odd or not: "))
+print(z >= 0 and z % 2 != 0)
+
+
+
+
+
+# Question no 40
+"""40. Compare the lengths of two strings provided by the user. """
+
+v = str(input("Please enter your 1st string: "))
+m = str(input("Please enter your 2nd string: "))
+print(len(v) == len(m))
