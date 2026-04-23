@@ -1,47 +1,47 @@
 # BEGINNER LEVEL: STRINGS FUNDAMENTALS
 
 # 1. Length of a String
-s = input("Enter a string: ")
-print("Length of string:", len(s))
+p = input("Enter string: ")
+print(len(p))
 
 
 
 
 
-# 2. Uppercase & Lowercase
-s = input("Enter a string: ")
-print("Uppercase:", s.upper())
-print("Lowercase:", s.lower())
+# 2. Uppercase and Lowercase
+d = input("Enter your string: ")
+print(d.upper())
+print(d.lower())
 
 
 
 
 
 # 3. Count a Character
-s = input("Enter a string: ")
-ch = input("Enter a character to count: ")
-print(f"Character '{ch}' appears:", s.count(ch), "times")
+a = input("Enter string: ")
+z = input("Enter word: ")
+print(f"Character {z} appears:", a.count(z), "times")
 
 
 
 
 
 # 4. First & Last Character
-s = input("Enter a string: ")
-if not s:
-    print("Empty string!")
+x = input("Enter string: ")
+if not x:
+    print("Empty string")
 else:
-    print("First character:", s[0])
-    print("Last character:", s[-1])
+    print(x[0])
+    print(x[-1])
 
 
 
 
 
 # 5. Check Substring Presence
-s = input("Enter main string: ")
-sub = input("Enter substring to check: ")
-print("Substring present?", sub in s)
+f = input("Enter string: ")
+su = input("Enter substring: ")
+print(su in f)
 
 
 
@@ -49,10 +49,10 @@ print("Substring present?", sub in s)
 
 
 # 6. Slice a String
-s = input("Enter a string: ")
-start = int(input("Enter start index: "))
-end = int(input("Enter end index: "))
-print("Sliced string:", s[start:end])
+e = input("Enter string: ")
+start = int(input("Enter 1st index: "))
+end = int(input("Enter 2nd index: "))
+print(e[start:end])
 
 
 
@@ -60,8 +60,8 @@ print("Sliced string:", s[start:end])
 
 
 # 7. Reverse a String
-s = input("Enter a string: ")
-print("Reversed string:", s[::-1])
+b = input("Enter string: ")
+print(b[::-1])
 
 
 
@@ -69,28 +69,28 @@ print("Reversed string:", s[::-1])
 
 
 # 8. Replace Substring
-s = input("Enter a string: ")
-old = input("Enter word to replace: ")
-new = input("Enter new word: ")
-print("Updated string:", s.replace(old, new))
+o = input("Enter your string: ")
+ol = input("Enter want to replace: ")
+ne = input("Enter new word to replace: ")
+print(o.replace(ol, ne))
 
 
 
 
 
 # 9. Split and Join
-s = input("Enter a sentence: ")
-words = s.split()
-joined = "-".join(words)
-print("Split & Joined:", joined)
+u = input("Enter string: ")
+wor = u.split()
+jo = "-".join(wor)
+print(jo)
 
 
 
 
 
 # 10. Strip Whitespace
-s = input("Enter a string with spaces: ")
-print("Stripped string:", s.strip())
+q = input("Enter string for strip : ")
+print(q.strip())
 
 
 
@@ -100,11 +100,11 @@ print("Stripped string:", s.strip())
 # INTERMEDIATE LEVEL: STRING TASKS
 
 # 1. Count Vowels & Consonants
-s = input("Enter a string: ")
+m = input("Enter a string: ")
 vowels = consonants = 0
-for ch in s:
-    if ch.isalpha():
-        if ch.lower() in "aeiou":
+for i in m:
+    if i.isalpha():
+        if i.lower() in "aeiou":
             vowels += 1
         else:
             consonants += 1
@@ -115,18 +115,18 @@ print("Vowels:", vowels, "Consonants:", consonants)
 
 
 # 2. Palindrome Check (Ignore case & non-alphanumerics)
-s = input("Enter a string: ")
-normalized = ''.join(ch.lower() for ch in s if ch.isalnum())
-is_palindrome = normalized == normalized[::-1]
-print("Is palindrome:", is_palindrome)
+b = input("Enter string: ")
+nor = ''.join(x.lower() for x in b if x.isalnum())
+palindrome = nor== nor[::-1]
+print("Is palindrome:", palindrome)
 
 
 
 
 
 # 3. Title Case (Manual)
-s = input("Enter a sentence: ")
-words = s.split()
+p = input("Enter sentence: ")
+words = p.split()
 title_case = ' '.join(word[0].upper() + word[1:].lower() if word else '' for word in words)
 print("Title case:", title_case)
 
@@ -135,52 +135,52 @@ print("Title case:", title_case)
 
 
 # 4. Find All Indices of a Substring (Allow Overlaps)
-s = input("Enter main string: ")
-sub = input("Enter substring to find: ")
-indices = [i for i in range(len(s)-len(sub)+1) if s[i:i+len(sub)] == sub]
-print("Substring indices:", indices)
+l = input("Enter string:")
+sub = input("Enter substring:")
+ind = [i for i in range(len(l)-len(sub)+1) if l[i:i+len(sub)] == sub]
+print(ind)
 
 
 
 
 
 # 5. Character Frequency Dictionary (case-insensitive, skip spaces)
-s = input("Enter a string: ")
-freq = {}
-for ch in s.lower():
-    if ch != ' ':
-        freq[ch] = freq.get(ch,0)+1
-print("Character frequency dict:", freq)
+f = input("Enter string: ")
+fre = {}
+for z in f.lower():
+    if z != ' ':
+        fre[z] = fre.get(z,0)+1
+print (fre)
 
 
 
 
 # 6. Anagram Checker (ignore spaces, punctuation, case)
-s1 = input("Enter first string: ")
-s2 = input("Enter second string: ")
-clean1 = sorted(ch.lower() for ch in s1 if ch.isalpha())
-clean2 = sorted(ch.lower() for ch in s2 if ch.isalpha())
-print("Are anagrams:", clean1 == clean2)
+t1 = input("Enter 1 string: ")
+t2 = input("Enter 2 string: ")
+c1 = sorted(c.lower() for c in t1 if c.isalpha())
+c2 = sorted(c.lower() for c in t2 if c.isalpha())
+print(c1 == c2)
 
 
 
 
 
 # 7. Compress Repeated Characters (RLE-lite)
-s = input("Enter a string: ")
-if s:
-    result = ""
+o = input("Enter a string: ")
+if o:
+    re = ""
     count = 1
-    for i in range(1, len(s)):
-        if s[i] == s[i-1]:
+    for i in range(1, len(o)):
+        if o[i] == o[i-1]:
             count += 1
         else:
-            result += s[i-1] + str(count)
+            re += o[i-1] + str(count)
             count = 1
-    result += s[-1] + str(count)
+    re += o[-1] + str(count)
 else:
-    result = ""
-print("Compressed string:", result)
+    re = ""
+print(re)
 
 
 
@@ -188,28 +188,28 @@ print("Compressed string:", result)
 
 
 # 8. Longest Word in a Sentence
-s = input("Enter a sentence: ")
-tokens = s.split()
-longest = ""
-for token in tokens:
-    word = ''.join(ch for ch in token if ch.isalpha())
-    if len(word) > len(longest):
-        longest = word
-print("Longest word:", longest)
+u = input("Enter sentence: ")
+tok = u.split()
+lo = ""
+for tok in tok:
+    wo = ''.join(q for q in tok if q.isalpha())
+    if len(wo) > len(lo):
+        lo = wo
+print(lo)
 
 
 
 
 
 # 9. Remove Duplicate Characters but Keep Order
-s = input("Enter a string: ")
-seen = set()
-res = ''
-for ch in s:
-    if ch not in seen:
-        res += ch
-        seen.add(ch)
-print("String after removing duplicates:", res)
+y = input("Enter string: ")
+se = set()
+re = ''
+for k in y:
+    if k not in se:
+        re += k
+        se.add(k)
+print(re)
 
 
 
@@ -217,14 +217,14 @@ print("String after removing duplicates:", res)
 
 
 # 10. Mask Email Username
-email = input("Enter email: ")
-if '@' in email:
-    username, domain = email.split('@',1)
-    if len(username) > 2:
-        masked = username[0] + '*'*(len(username)-2) + username[-1]
+e = input("Enter email: ")
+if '@' in e:
+    usn, domain = e.split('@',1)
+    if len(usn) > 2:
+        mas = usn[0] + '*'*(len(usn)-2) + usn[-1]
     else:
-        masked = username
-    masked_email = masked + '@' + domain
-    print("Masked email:", masked_email)
+        mas = usn
+    m_e = mas + '@' + domain
+    print(m_e)
 else:
-    print("Invalid email format")
+    print("wrong format")

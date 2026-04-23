@@ -394,7 +394,7 @@ print("Cleaned Data:\n",df_cleaned)
 
 
 # filling NaN values with 0
-df.fillna(0, inplace=True)
+df.fillna('0', inplace=True)
 
 print("\nData after filling NaN with 0:\n", df)
 
