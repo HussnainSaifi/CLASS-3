@@ -10,7 +10,7 @@ import pandas as pd
 import numpy as np
 import sklearn.preprocessing
 
-df = pd.read_csv('Week4/EncodingCategoricalData.csv')
+df = pd.read_csv('Week8/EncodingCategoricalData.csv')
 print(df.head())
 
 """"

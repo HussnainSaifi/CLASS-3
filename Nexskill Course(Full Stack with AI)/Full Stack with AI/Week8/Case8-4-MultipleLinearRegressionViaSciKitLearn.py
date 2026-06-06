@@ -19,7 +19,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-path_to_file = 'week4/petrol_consumption.csv'
+path_to_file = 'week8/petrol_consumption.csv'
 df = pd.read_csv(path_to_file)
 
 print("df.head():  \n",df.head())
