@@ -1,5 +1,5 @@
 import numpy as np
-broker, pri, bed, bath, acer_lot, street = np.genfromtxt("All Assignments\\Numpy Assignments\\RealEstate-USA (1).csv",
+broker, pri, bed, bath, acer_lot, street = np.genfromtxt(r"C:\Users\Hussnain Saifi\Documents\GitHub\CLass-3\All_Assignemts\Numpy Assignments\RealEstate-USA (1).csv",
               delimiter=",",
               usecols=(0,2, 3, 4, 5, 6),
               dtype=("i8, i8, i8, i8, f8, i8"),

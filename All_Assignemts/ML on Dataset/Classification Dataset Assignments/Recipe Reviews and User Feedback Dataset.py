@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 data = pd.read_csv(
-    r"C:\Users\Hussnain Saifi\Documents\GitHub\CLass-3\Nexskill Course(Full Stack with AI)\All Assignments\ML on Dataset\Classification Dataset Assignments\Recipe Reviews and User Feedback Dataset.csv"
+    r"C:\Users\Hussnain Saifi\Documents\GitHub\CLass-3\All_Assignemts\ML on Dataset\Classification Dataset Assignments\Recipe Reviews and User Feedback Dataset.csv"
 )
 
 print("First Five Records")

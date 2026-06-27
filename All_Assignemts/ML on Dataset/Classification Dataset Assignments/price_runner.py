@@ -4,7 +4,7 @@ import seaborn as sns
 # Load Dataset
 
 products = pd.read_csv(
-    r"C:\Users\Hussnain Saifi\Documents\GitHub\CLass-3\Nexskill Course(Full Stack with AI)\All Assignments\ML on Dataset\Classification Dataset Assignments\pricerunner_aggregate.csv"
+    r"C:\Users\Hussnain Saifi\Documents\GitHub\CLass-3\All_Assignemts\ML on Dataset\Classification Dataset Assignments\pricerunner_aggregate.csv"
 )
 
 # Remove spaces from column names

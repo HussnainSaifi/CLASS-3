@@ -1,6 +1,6 @@
 import numpy as np
 funding_rounds, investment_amt, valuation, no_of_instrs, growth_rate = np.genfromtxt(
-    "All Assignments\\Numpy Assignments\\startup_growth_investment_data.csv",
+    r"C:\Users\Hussnain Saifi\Documents\GitHub\CLass-3\All_Assignemts\Numpy Assignments\startup_growth_investment_data.csv",
     delimiter=",",
     usecols=(2,3,4,5,8),
     unpack=True,

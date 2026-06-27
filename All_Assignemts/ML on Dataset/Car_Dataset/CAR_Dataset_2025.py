@@ -3,7 +3,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("All Assignments/ML on Dataset/Cars Datasets 2025.csv",encoding="latin1")
+df = pd.read_csv(r"C:\Users\Hussnain Saifi\Documents\GitHub\CLass-3\All_Assignemts\ML on Dataset\Car_Dataset\Cars Datasets 2025.csv",encoding="latin1")
 print(df)
 # Head
 print("Head ",df.head())

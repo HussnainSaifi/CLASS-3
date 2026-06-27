@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 data = pd.read_csv(
-    r"Nexskill Course(Full Stack with AI)/All Assignments/ML on Dataset/Classification Dataset Assignments/Predict Students' Dropout and Academic Success.csv",
+    r"C:\Users\Hussnain Saifi\Documents\GitHub\CLass-3\All_Assignemts\ML on Dataset\Classification Dataset Assignments\Predict Students' Dropout and Academic Success.csv",
     sep=";"
 )
 

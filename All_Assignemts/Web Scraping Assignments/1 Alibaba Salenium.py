@@ -52,7 +52,7 @@ for item in items:
 driver.quit()
 
 # save
-folder = "All Assignments/Web Scraping Assignments/alibaba.csv"
+folder = r"C:/Users/Hussnain Saifi/Documents/GitHub/CLass-3/All_Assignemts/Web Scraping Assignments/alibaba.csv"
 
 with open(folder, "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, ["name", "price", "link"])

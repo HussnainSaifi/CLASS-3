@@ -2,7 +2,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("All Assignments/Seaborn Assignments/Real_Estate_Sales_2001-2022_GL-Short.csv")
+df = pd.read_csv(r"C:\Users\Hussnain Saifi\Documents\GitHub\CLass-3\All_Assignemts\Seaborn Assignments\Real_Estate_Sales_2001-2022_GL-Short.csv")
 
 sns.set_style("whitegrid")
 

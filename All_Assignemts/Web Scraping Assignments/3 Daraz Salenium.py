@@ -56,7 +56,7 @@ for item in items:
 driver.quit()
 
 # CSV
-filename = r"All Assignments\Web Scraping\Darazpk.csv"
+filename = r"All_Assignemts/Web Scraping Assignments/Darazpk.csv"
 
 with open(filename, "w", newline="", encoding="utf-8") as f:
     writer = csv.DictWriter(f, ["name", "price", "sold"])

@@ -4,7 +4,7 @@ import seaborn as sns
 
 # Read dataset
 data = pd.read_csv(
-    r"C:/Users/Hussnain Saifi/Documents/GitHub/CLass-3/Nexskill Course(Full Stack with AI)/All Assignments/ML on Dataset/Classification Dataset Assignments/Multivariate Gait Data.csv"
+    r"C:\Users\Hussnain Saifi\Documents\GitHub\CLass-3\All_Assignemts\ML on Dataset\Classification Dataset Assignments\Multivariate Gait Data.csv"
 )
 
 print(data.head())

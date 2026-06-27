@@ -1,7 +1,7 @@
 import numpy as np
 
 latitude, longitude, name = np.genfromtxt(
-    "All Assignments/Numpy Assignments/FastFoodRestaurants.csv",
+    r"C:\Users\Hussnain Saifi\Documents\GitHub\CLass-3\All_Assignemts\Numpy Assignments\FastFoodRestaurants.csv",
     delimiter=',',
     usecols=(4, 5, 6),
     unpack=True,

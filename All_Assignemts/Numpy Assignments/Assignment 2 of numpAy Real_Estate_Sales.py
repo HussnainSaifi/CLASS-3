@@ -1,6 +1,6 @@
 import numpy as np
 srl_num, asse_value, sale_amt, sale_rto =np.genfromtxt(
-    "All Assignments\\Numpy Assignments\\Real_Estate_Sales_2001-2022_GL-Short.csv",
+    r"C:\Users\Hussnain Saifi\Documents\GitHub\CLass-3\All_Assignemts\Numpy Assignments\Real_Estate_Sales_2001-2022_GL-Short.csv",
     delimiter=",",
     usecols=(0,5,6,7),
     dtype=("i8,f8,f8,f8"),

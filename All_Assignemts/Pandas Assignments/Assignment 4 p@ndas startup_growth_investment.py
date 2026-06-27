@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("All Assignments/Pandas Assignments/startup_growth_investment_data.csv")
+df = pd.read_csv(r"C:\Users\Hussnain Saifi\Documents\GitHub\CLass-3\All_Assignemts\Pandas Assignments\startup_growth_investment_data.csv")
 print(df)
 print()
 

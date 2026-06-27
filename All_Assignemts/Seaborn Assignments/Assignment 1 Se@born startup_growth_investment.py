@@ -2,7 +2,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv("All Assignments/Seaborn Assignments/startup_growth_investment_data.csv")
+df = pd.read_csv(r"C:\Users\Hussnain Saifi\Documents\GitHub\CLass-3\All_Assignemts\Seaborn Assignments\startup_growth_investment_data.csv")
 
 print(df.head())
 print()
